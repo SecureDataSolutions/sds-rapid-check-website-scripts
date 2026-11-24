@@ -2,6 +2,15 @@
 
 Lists third-party script hosts referenced in a page's HTML. On November 16, 2026, attackers added malicious JavaScript to some Optimizely Web Experimentation customer projects.
 
+## About
+
+**Secure Data Solutions (SDS)**, https://sdsitgroup.com  
+The engineers other security teams call when it has to work.
+
+We build free tools like this for cyber defenders. Our programs cover threat exposure, defensible security, and validated resilience: we find what attackers can reach, shut it down, and prove it holds.
+
+Ran this and found something, or not sure what you're looking at? Drop us a line at https://sdsitgroup.com. We're happy to talk it through, and when it's urgent, we pick up.
+
 Read the script first. [third_party_scripts.py](third_party_scripts.py)
 
 Requires Python 3.8 or later.

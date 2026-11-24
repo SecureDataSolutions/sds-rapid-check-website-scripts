@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Secure Data Solutions (SDS), https://sdsitgroup.com. Read-only check. Questions about the output? Contact us at sdsitgroup.com.
 # Eddie Espino, Secure Data Solutions. MIT License. No warranty; run only on systems you own or are authorized to check.
 """List third-party script hosts referenced in a web page's HTML.
 
