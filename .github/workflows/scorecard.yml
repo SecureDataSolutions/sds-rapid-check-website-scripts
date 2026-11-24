@@ -1,0 +1,32 @@
+name: OpenSSF Scorecard
+
+on:
+  branch_protection_rule:
+  schedule:
+    - cron: '15 14 * * 0'
+  push:
+    branches: [main]
+
+permissions: {}
+cache-mode: none
+
+jobs:
+  analysis:
+    name: Scorecard analysis
+    if: ${{ github.event.repository.default_branch == github.ref_name && github.repository_visibility == 'public' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Run Scorecard
+        uses: ossf/scorecard-action@23f22cd43608bae7a1f1fa2603d7314dee9538a5 # v2.6.0
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+          fail_on_publish_error: true
