@@ -2,6 +2,8 @@
 
 Lists third-party script hosts referenced in a page's HTML. On November 16, 2026, attackers added malicious JavaScript to some Optimizely Web Experimentation customer projects.
 
+**Who this is for.** Website maintainers, developers and security analysts who can recognize the vendors their site uses. Use the list to spot an unfamiliar script host and ask the site owner whether it belongs.
+
 ## About SDS
 
 **Security, AI & Systems Engineering**
