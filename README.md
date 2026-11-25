@@ -2,14 +2,17 @@
 
 Lists third-party script hosts referenced in a page's HTML. On November 16, 2026, attackers added malicious JavaScript to some Optimizely Web Experimentation customer projects.
 
-## About
+## About SDS
 
-**Secure Data Solutions (SDS)**, https://sdsitgroup.com  
-The engineers other security teams call when it has to work.
+**Security, AI & Systems Engineering**
 
-We build free tools like this for cyber defenders. Our programs cover threat exposure, defensible security, and validated resilience: we find what attackers can reach, shut it down, and prove it holds.
+Secure Data Solutions helps businesses strengthen their security and put AI to work. We engineer the systems and workflows that reduce repetitive work, help teams understand and respond to threats, and turn security findings into verified improvements.
 
-Ran this and found something, or not sure what you're looking at? Drop us a line at https://sdsitgroup.com. We're happy to talk it through, and when it's urgent, we pick up.
+We publish SDS Rapid Checks as free, focused tools to help the community investigate specific risks and understand what needs attention. Each check states what it looks for, how to run it, and what its results can and cannot tell you.
+
+[Discuss your project](https://sdsitgroup.com/contact) · [Explore our services](https://sdsitgroup.com/services/)
+
+Ran this and found something, or not sure what you're looking at? [Contact us](https://sdsitgroup.com/contact). We're happy to talk it through, and when it's urgent, we pick up.
 
 Read the script first. [third_party_scripts.py](third_party_scripts.py)
 
@@ -96,6 +99,6 @@ No finding is not proof of no compromise.
 
 The AI Coding Tool Check covers up to five developer machines and one build pipeline. The fixed price is $1,250 for the first three teams.
 
-[Contact form](https://sdsitgroup.com/contact) · [Services](https://sdsitgroup.com/#services)
+[Discuss your project](https://sdsitgroup.com/contact) · [Explore our services](https://sdsitgroup.com/services/)
 
 Run only on systems you own or are authorized to check. Licensed under the MIT License.
